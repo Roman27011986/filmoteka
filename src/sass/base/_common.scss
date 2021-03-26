@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  // outline: 1px solid orange;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  background-image: url(../images/background/intersection.png);
+}
+
+main {
+  min-height: calc(100vh - 77px);
+}
